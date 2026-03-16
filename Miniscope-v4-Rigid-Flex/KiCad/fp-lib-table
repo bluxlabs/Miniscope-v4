@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Miniscope_V4_library")(type "KiCad")(uri "${KIPRJMOD}/Miniscope_V4_library.pretty")(options "")(descr ""))
+)

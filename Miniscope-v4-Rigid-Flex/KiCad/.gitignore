@@ -1,25 +1,46 @@
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
-# Format documentation: http://kicad-pcb.org/help/file-formats/
+# ==========================================================
+# KiCad 6/7/8/9 Gitignore
+# ==========================================================
 
-# Temporary files
+# --- Temporary & Backup Files ---
 *.000
 *.bak
 *.bck
+*.kicad_pro-bak
 *.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
 *~
 _autosave-*
 *.tmp
-*-cache.lib
-*-rescue.lib
 *-save.pro
 *-save.kicad_pcb
+fp-info-cache
 
-# Netlist files (exported from Eeschema)
+# --- Specific Project Backups ---
+# Explicitly ignoring the backup folder
+Miniscope-v4-Rigid-Flex-backups/
+
+# --- Netlist & Intermediate Files ---
 *.net
-
-# Autorouter files (exported from Pcbnew)
+*.xml
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
+# --- Hardware/OS Specific ---
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# --- Production & Automation ---
+# Ignoring KiBot outputs and letting in general plot directories
+kibot/
+#plots/
+#gerbers/
+#outputs/
+
+# --- Local Settings ---
+# This contains local window state and shouldn't be tracked
+*.kicad_prl
