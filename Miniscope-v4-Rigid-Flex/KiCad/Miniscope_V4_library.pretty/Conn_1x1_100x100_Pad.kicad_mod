@@ -1,0 +1,63 @@
+(footprint "Conn_1x1_100x100_Pad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.27 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "638243ca-eee2-4228-85fe-7545db719c8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Conn_1x1_250x750_Pad"
+		(at 0 -1.27 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a43532cc-fbe6-48ac-8d56-83e2ca192940")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aca7033d-c7e1-4af5-bcd1-ae2d1af8a55a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ba6703c-bb3f-4b91-a81d-8143694cc681")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1 1)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d24d3180-2f09-43b5-8715-5a4afd193c18")
+	)
+	(embedded_fonts no)
+)

@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name Miniscope-v4-Rigid-Flex-rescue)(type Legacy)(uri ${KIPRJMOD}/Miniscope-v4-Rigid-Flex-rescue.lib)(options "")(descr ""))
+  (version 7)
+  (lib (name "Miniscope_V4_library")(type "KiCad")(uri "${KIPRJMOD}/Miniscope_V4_library.kicad_sym")(options "")(descr ""))
 )

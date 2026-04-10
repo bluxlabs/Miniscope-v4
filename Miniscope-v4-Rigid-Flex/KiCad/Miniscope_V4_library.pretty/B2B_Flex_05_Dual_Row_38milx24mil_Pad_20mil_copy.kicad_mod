@@ -1,0 +1,97 @@
+(footprint "B2B_Flex_05_Dual_Row_38milx24mil_Pad_20mil_copy"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.6112 3.3568 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1afebf4-a2a7-4b0b-be79-634c455f57f5")
+		(effects
+			(font
+				(size 0.1778 0.1778)
+				(thickness 0.0254)
+			)
+		)
+	)
+	(property "Value" "DNL"
+		(at 0.3556 3.048 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3099cd39-2d87-422a-b000-8196b53b15db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "291cbf23-ce7f-484a-81a8-e95eeb26bbb1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "533b91f0-5418-43eb-ba03-b46932652e27")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(pad "1" smd circle
+		(at 0 0)
+		(size 0.508 0.508)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -2.54)
+		(zone_connect 0)
+		(uuid "4e11ce18-0c9a-46ac-b07d-dfb952a59a17")
+	)
+	(pad "2" smd circle
+		(at 0.482599 0.6096)
+		(size 0.508 0.508)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -2.54)
+		(zone_connect 0)
+		(uuid "021506e5-4026-406c-b97c-00c7a05b7481")
+	)
+	(pad "3" smd circle
+		(at 0.965199 0)
+		(size 0.508 0.508)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -2.54)
+		(zone_connect 0)
+		(uuid "5b714adb-1c40-4b14-8fd6-9208586add61")
+	)
+	(pad "4" smd circle
+		(at 1.447798 0.6096)
+		(size 0.508 0.508)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -2.54)
+		(zone_connect 0)
+		(uuid "65d0990e-39c2-4a62-b35b-f49ec89f72bc")
+	)
+	(pad "5" smd circle
+		(at 1.930398 0)
+		(size 0.508 0.508)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -2.54)
+		(zone_connect 0)
+		(uuid "35950fd7-d893-4e9e-8db1-b778e1745a63")
+	)
+	(embedded_fonts no)
+)
